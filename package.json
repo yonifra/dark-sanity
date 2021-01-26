@@ -1,0 +1,21 @@
+{
+    "name": "dark-sanity",
+    "displayName": "Dark Sanity",
+    "description": "A sane dark mode for VS code, with emphasis on clean looks and easy on the eye",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Sanity",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark Sanity-color-theme.json"
+            }
+        ]
+    }
+}
